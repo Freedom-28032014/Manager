@@ -46,10 +46,10 @@ public class MovieManager {
         MovieCatalog[] result = new MovieCatalog[lenght];
 
         for (int i = 0; i < lenght; i++) {
-            int index = items.length - i -1;
+            int index = items.length - i - 1;
             result[i] = items[index];
 
-            }
+        }
 
         return result;
     }
